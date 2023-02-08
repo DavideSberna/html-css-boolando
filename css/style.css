@@ -40,6 +40,11 @@
 
 
 /* header settings */
+.header{
+    position: fixed;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.274) 2px 2px 3px;
+}
 .section-nav{
     background-color: var(--header-color);
     width: 100%;
@@ -64,6 +69,9 @@ header a{
 
 
 /* main settings */
+main{
+    padding-top: 70px;
+}
 main img{
     width: 100%;
 }
@@ -88,13 +96,14 @@ main img{
 
 footer a{
     color: var(--color-white);
+    margin: 10px 4px 0 0;
 }
 .border-footer{
     border-bottom: solid 1px var(--color-white);
 }
 
 footer .fa{
-    padding: 3px;
+    padding: 2px;
     background-color: var(--color-white);
     color: var(--color-black);
 }
@@ -137,6 +146,33 @@ footer .fa{
     top: 10px;
     right: 0;
 }
+
+.img-visible{
+    width: 100%;
+}
+
+.img-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    
+    
+}
+
+
+
+
+/* hover image */
+.hover-contain:hover .img-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    
+    
+}
+
 
 
 
@@ -204,6 +240,11 @@ footer .fa{
 .padding-button{
     padding-bottom: 150px;
 }
+.margin-left{
+    margin-left: 8px;
+}
+
+
 
 
 
@@ -253,6 +294,9 @@ a{
 
 .uppercase{
     text-transform: uppercase;
+}
+.bolder{
+    font-weight: bolder;
 }
 
 
