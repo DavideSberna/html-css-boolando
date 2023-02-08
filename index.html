@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f795f2978c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>css-boolando</title>
 </head>
 <body>
 
     <header>
-        <section class="section-nav debug">
-            <nav class="center flex-space-between">
+        <section class="section-nav debug padding">
+            <nav class="center flex-space-between flex-wrap padding">
                 <div>
                     <a href="">Donna</a>
                     <a href="">Uomo</a>
                     <a href="">Bambini</a>
                 </div>
-                <div>
+                <div class="flex-central-items">
                     <img src="./img/boolean-logo.png" alt="logo">
                 </div>
                 <div>
-                    <a href="http://">1</a>
-                    <a href="http://">2</a>
-                    <a href="http://">3</a>
+                    <a href="http://"><i class="fa-regular fa-user"></i></a>
+                    <a href="http://"><i class="fa-regular fa-heart"></i></a>
+                    <a href="http://"><i class="fa-solid fa-bag-shopping"></i></a>
                 </div>
             </nav>
         </section>
@@ -31,120 +35,215 @@
 
     <main>
         <section>
-            <div class="center flex-space-between flex-wrap debug">
+            <div class="center flex-space-between flex-wrap padding-top-button">
 
                 <!-- prima immagine -->
-                <div class="max-row debug">
-                    <div class="">
+                <div class="max-row debug min-width padding padding-cards">
+                    <div class="position-r">
                         <img src="./img/1.webp" alt="immagine">
-                        <div>
-                            <p>-50%</p>
-                            <p>Sostenibilità</p>
+                        <!-- position absolute for discount text / green text -->
+                        <div class="position-a flex-wrap">
+                            <div class="red">
+                                <p>-50%</p>
+                            </div>
+                            <div class="green">
+                                <p>Sostenibilità</p>
+                            </div>
+                        </div>
+                        <div class="position-hearts hearts text-align flex-central-items">
+                            <a class="black" href="">&hearts;</a>
                         </div>
                     </div>
+                    <!-- container description product -->
                     <div>
-                        <p>Levi's</p>
-                        <h3>Relaxed fit tee unisex</h3>
-                        <div>
-                            <p>14,99 euro</p>
-                            <p>29,90 euro</p>
+                        <p class="gray-text">Levi's</p>
+                        <h3 class="uppercase">Relaxed fit tee unisex</h3>
+                        <!-- price container -->
+                        <div class="flex-wrap">
+                            <div>
+                                <p class="red-text">14,99 euro</p>
+                            </div>
+                            <div>
+                                <p class="line-through">29,90 euro</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="max-row debug">
-                    <div class="">
+                <!-- prima immagine -->
+                <div class="max-row debug min-width padding padding-cards">
+                    <div class="position-r">
                         <img src="./img/1.webp" alt="immagine">
-                        <div>
-                            <p>-50%</p>
-                            <p>Sostenibilità</p>
+                        <!-- position absolute for discount text / green text -->
+                        <div class="position-a flex-wrap">
+                            <div class="red">
+                                <p>-50%</p>
+                            </div>
+                            <div class="green">
+                                <p>Sostenibilità</p>
+                            </div>
+                        </div>
+                        <div class="position-hearts hearts text-align flex-central-items">
+                            <a class="black" href="">&hearts;</a>
                         </div>
                     </div>
+                    <!-- container description product -->
                     <div>
-                        <p>Levi's</p>
-                        <h3>Relaxed fit tee unisex</h3>
-                        <div>
-                            <p>14,99 euro</p>
-                            <p>29,90 euro</p>
+                        <p class="gray-text">Levi's</p>
+                        <h3 class="uppercase">Relaxed fit tee unisex</h3>
+                        <!-- price container -->
+                        <div class="flex-wrap">
+                            <div>
+                                <p class="red-text">14,99 euro</p>
+                            </div>
+                            <div>
+                                <p class="line-through">29,90 euro</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="max-row debug">
-                    <div class="">
+                <!-- prima immagine -->
+                <div class="max-row debug min-width padding padding-cards">
+                    <div class="position-r">
                         <img src="./img/1.webp" alt="immagine">
-                        <div>
-                            <p>-50%</p>
-                            <p>Sostenibilità</p>
+                        <!-- position absolute for discount text / green text -->
+                        <div class="position-a flex-wrap">
+                            <div class="red">
+                                <p>-50%</p>
+                            </div>
+                            <div class="green">
+                                <p>Sostenibilità</p>
+                            </div>
+                        </div>
+                        <div class="position-hearts hearts text-align flex-central-items">
+                            <a class="black" href="">&hearts;</a>
                         </div>
                     </div>
+                    <!-- container description product -->
                     <div>
-                        <p>Levi's</p>
-                        <h3>Relaxed fit tee unisex</h3>
-                        <div>
-                            <p>14,99 euro</p>
-                            <p>29,90 euro</p>
+                        <p class="gray-text">Levi's</p>
+                        <h3 class="uppercase">Relaxed fit tee unisex</h3>
+                        <!-- price container -->
+                        <div class="flex-wrap">
+                            <div>
+                                <p class="red-text">14,99 euro</p>
+                            </div>
+                            <div>
+                                <p class="line-through">29,90 euro</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="max-row debug">
-                    <div class="">
+
+                <!-- prima immagine -->
+                <div class="max-row debug min-width padding padding-cards">
+                    <div class="position-r">
                         <img src="./img/1.webp" alt="immagine">
-                        <div>
-                            <p>-50%</p>
-                            <p>Sostenibilità</p>
+                        <!-- position absolute for discount text / green text -->
+                        <div class="position-a flex-wrap">
+                            <div class="red">
+                                <p>-50%</p>
+                            </div>
+                            <div class="green">
+                                <p>Sostenibilità</p>
+                            </div>
+                        </div>
+                        <div class="position-hearts hearts text-align flex-central-items">
+                            <a class="black" href="">&hearts;</a>
                         </div>
                     </div>
+                    <!-- container description product -->
                     <div>
-                        <p>Levi's</p>
-                        <h3>Relaxed fit tee unisex</h3>
-                        <div>
-                            <p>14,99 euro</p>
-                            <p>29,90 euro</p>
+                        <p class="gray-text">Levi's</p>
+                        <h3 class="uppercase">Relaxed fit tee unisex</h3>
+                        <!-- price container -->
+                        <div class="flex-wrap">
+                            <div>
+                                <p class="red-text">14,99 euro</p>
+                            </div>
+                            <div>
+                                <p class="line-through">29,90 euro</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="max-row debug">
-                    <div class="">
+
+                <!-- prima immagine -->
+                <div class="max-row debug min-width padding padding-cards">
+                    <div class="position-r">
                         <img src="./img/1.webp" alt="immagine">
-                        <div>
-                            <p>-50%</p>
-                            <p>Sostenibilità</p>
+                        <!-- position absolute for discount text / green text -->
+                        <div class="position-a flex-wrap">
+                            <div class="red">
+                                <p>-50%</p>
+                            </div>
+                            <div class="green">
+                                <p>Sostenibilità</p>
+                            </div>
+                        </div>
+                        <div class="position-hearts hearts text-align flex-central-items">
+                            <a class="black" href="">&hearts;</a>
                         </div>
                     </div>
+                    <!-- container description product -->
                     <div>
-                        <p>Levi's</p>
-                        <h3>Relaxed fit tee unisex</h3>
-                        <div>
-                            <p>14,99 euro</p>
-                            <p>29,90 euro</p>
+                        <p class="gray-text">Levi's</p>
+                        <h3 class="uppercase">Relaxed fit tee unisex</h3>
+                        <!-- price container -->
+                        <div class="flex-wrap">
+                            <div>
+                                <p class="red-text">14,99 euro</p>
+                            </div>
+                            <div>
+                                <p class="line-through">29,90 euro</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="max-row debug">
-                    <div class="">
+
+                <!-- prima immagine -->
+                <div class="max-row debug min-width padding padding-cards">
+                    <div class="position-r">
                         <img src="./img/1.webp" alt="immagine">
-                        <div>
-                            <p>-50%</p>
-                            <p>Sostenibilità</p>
+                        <!-- position absolute for discount text / green text -->
+                        <div class="position-a flex-wrap">
+                            <div class="red">
+                                <p>-50%</p>
+                            </div>
+                            <div class="green">
+                                <p>Sostenibilità</p>
+                            </div>
+                        </div>
+                        <div class="position-hearts hearts text-align flex-central-items">
+                            <a class="black" href="">&hearts;</a>
                         </div>
                     </div>
+                    <!-- container description product -->
                     <div>
-                        <p>Levi's</p>
-                        <h3>Relaxed fit tee unisex</h3>
-                        <div>
-                            <p>14,99 euro</p>
-                            <p>29,90 euro</p>
+                        <p class="gray-text">Levi's</p>
+                        <h3 class="uppercase">Relaxed fit tee unisex</h3>
+                        <!-- price container -->
+                        <div class="flex-wrap">
+                            <div>
+                                <p class="red-text">14,99 euro</p>
+                            </div>
+                            <div>
+                                <p class="line-through">29,90 euro</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
+
+               
 
             </div>
         </section>
     </main>
 
-    <footer>
-        <section class="footer debug">
+    <footer class="footer padding-button">
+        <section class="border-footer padding-footer">
             <div class="center flex-space-between white">
                 <div>
                    <h4>Booleando s.r.l</h4>
@@ -152,12 +251,12 @@
                 </div>
                 <div>
                     <h5>Trovaci anche su</h5>
-                    <div>
-                        <a href="">1</a>
-                        <a href="">2</a>
-                        <a href="">3</a>
-                        <a href="">4</a>
-                        <a href="">5</a>
+                    <div> 
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-pinterest"></a>
                     </div>
                 </div>
             </div>

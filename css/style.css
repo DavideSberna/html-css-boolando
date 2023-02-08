@@ -13,26 +13,103 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
 }
 
-.debug{
-    border: solid 1px black;
-}
 
+
+
+
+
+
+
+
+
+/* setting central contenitor */
 .center{
     max-width: 1500px;
     margin: 0 auto;
 }
 
+
+
+
+
+
+
+
+
+/* header settings */
 .section-nav{
-    background-color: orange;
+    background-color: var(--header-color);
     width: 100%;
 }
 
+header img{
+    width: 120px;
+}
+
+header a{
+    color: var(--color-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* main settings */
 main img{
     width: 100%;
 }
+.hearts{
+    background-color: var(--color-white);
+    padding: 10px;
+    font-size: 2em;
+    width: 50px;
+    height: 50px;
+}
 
+
+
+
+
+
+
+/* footer settings */
+.footer{
+    background-color: var(--footer-color);
+}
+
+footer a{
+    color: var(--color-white);
+}
+.border-footer{
+    border-bottom: solid 1px var(--color-white);
+}
+
+footer .fa{
+    padding: 3px;
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+
+
+
+
+
+
+
+/* setting dimension */
+.min-width{
+    min-width: 300px;
+}
 .max-row{
     width: calc(100% / 3);
     margin: 0 auto;
@@ -46,7 +123,31 @@ main img{
 
 
 
+/* setting position */
+.position-r{
+    position: relative;
+}
+.position-a{
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+}
+.position-hearts{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
 
+
+
+
+
+
+
+
+
+
+/* flex setting */
 .flex-space-between{
     display: flex;
     justify-content: space-between;
@@ -54,6 +155,7 @@ main img{
 }
 
 .flex-wrap{
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -63,14 +165,100 @@ main img{
     flex-flow: row wrap;
 }
 
-
-
-
-
-.footer{
-    background-color: var(--footer-color);
+.flex-central-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+/* settings of padding - margin - text center */
+.text-align{
+    text-align: center;
+}
+
+.padding{
+    padding: 8px;
+}
+.padding-top-button{
+    padding: 40px 0;
+}
+
+.padding-cards{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.padding-footer{
+    padding: 20px 0;
+}
+
+.padding-button{
+    padding-bottom: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+/* decoration of elements */
+a{
+    text-decoration :none;
+}
 .white{
     color: var(--color-white);
 }
+
+.black{
+    color: var(--color-black);
+}
+
+.red{
+    background-color: var(--sconto-color);
+    padding: 3px 10px;
+    margin-right: 4px;
+    color: var(--color-white);
+}
+
+.green{
+    background-color: var(--green-contain);
+    padding: 3px 10px;
+    color: var(--color-white);
+}
+
+.red-text{
+    color: var(--sconto-color);
+}
+
+.gray-text{
+    color: rgb(52, 52, 52);
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
